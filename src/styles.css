@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.color-listing {
+  height: 300px;
+  width: 350px;
+  border: 2px solid black;
+  margin: 10px;
+  display: inline-block;
+}
+.color-box {
+  height: 150px;
+  width: 348px;
+  margin-top: 40px;
+}
+
+.star {
+  text-align: center;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: grey;
+  clip-path: polygon(
+    50% 0%,
+    63% 38%,
+    100% 38%,
+    69% 59%,
+    82% 100%,
+    50% 75%,
+    18% 100%,
+    31% 59%,
+    0% 38%,
+    37% 38%
+  );
+}
+.star.selected {
+  background-color: darkorange;
+}
